@@ -25,7 +25,7 @@
 </script>
 
 {% assign show_sidebar = false %}
-{% assign show_filters = true %}
+{% assign show_filters = false %}
 {% assign show_filter_trigger = false %}
 
 {% if section.settings.filter_style == 'none' %}
@@ -45,7 +45,7 @@
     {% comment %}
       Sidebar to show only if there are tags in the collection, or there are menus
     {% endcomment %}
-    {% assign show_sidebar = true %}
+    {% assign show_sidebar = false %}
   {% endif %}
 {% endif %}
 
