@@ -91,25 +91,25 @@
           "promo-mosaic-block-1": {
             "type": "promotion",
             "settings": {
-              "image": "",
-              "title": "Mosaic",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
-              "block_link": "",
+              "image": "shopify:\/\/shop_images\/waterproof-electronics.jpg",
+              "title": "Electronics",
+              "text": "",
+              "color": "#ffffff",
+              "block_link": "shopify:\/\/collections\/all",
               "button_text": "",
               "button_style": "primary",
               "show_overlay": false,
-              "background": "",
-              "opacity": 50
+              "background": "#d1d1d1",
+              "opacity": 49
             }
           },
           "promo-mosaic-block-2": {
             "type": "promotion",
             "settings": {
-              "image": "",
-              "title": "Mosaic",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
+              "image": "shopify:\/\/shop_images\/woman-in-orange-zip-up-jacket.jpeg",
+              "title": "Fashion",
+              "text": "",
+              "color": "#ffffff",
               "block_link": "",
               "button_text": "",
               "button_style": "primary",
@@ -121,10 +121,25 @@
           "promo-mosaic-block-3": {
             "type": "promotion",
             "settings": {
-              "image": "",
-              "title": "Mosaic",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
+              "image": "shopify:\/\/shop_images\/brushes-blossoms.jpg",
+              "title": "Beauty",
+              "text": "",
+              "color": "#ffffff",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
+          },
+          "1530956102099": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/home-decor-and-kitchen-accessories.jpg",
+              "title": "Home",
+              "text": "",
+              "color": "#ffffff",
               "block_link": "",
               "button_text": "",
               "button_style": "primary",
@@ -137,14 +152,15 @@
         "block_order": [
           "promo-mosaic-block-1",
           "promo-mosaic-block-2",
-          "promo-mosaic-block-3"
+          "promo-mosaic-block-3",
+          "1530956102099"
         ],
         "settings": {
-          "title": "Mosaic",
+          "title": "EXPLORE",
           "section_height": "small",
           "text_alignment": "top-left",
           "maintain_aspect_ratio": false,
-          "compress_blocks": false
+          "compress_blocks": true
         }
       },
       "home-blog-posts": {
@@ -365,13 +381,6 @@
               "menu": "footer"
             }
           },
-          "static-footer-1": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Subscribe",
-              "text": "<p>Receive the best of the best of the most&nbsp;SURPRISINGLY and CURIOUSLY gift DISCOUNT weekly.<\/p>"
-            }
-          },
           "1530954071360": {
             "type": "menu",
             "settings": {
@@ -383,6 +392,13 @@
             "settings": {
               "title": "Need a friend's help?",
               "text": "<p>Feel free to drop an email to your friend at <a href=\"mailto:contact@zegars.com\" title=\"mailto:contact@zegars.com\">contact@zegars.com<\/a><\/p>"
+            }
+          },
+          "static-footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe",
+              "text": "<p>Receive the best of the best of the most&nbsp;SURPRISINGLY and CURIOUSLY gift DISCOUNT weekly.<\/p>"
             }
           }
         },
