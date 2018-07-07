@@ -58,7 +58,7 @@ sections/static-blog.liquid:
 sections/static-cart.liquid:
   development: 2018-07-05T23:41:16-07:00   f2724c6b8fd273128ab53a765d22b29d
 sections/static-collection.liquid:
-  development: 2018-07-05T23:41:16-07:00   5b9e9194477faf9003414ca5f434ee0d
+  development: 2018-07-07T02:58:35-07:00   de1c82486474396a4d6584427d122dd7
 sections/static-footer.liquid:
   development: 2018-07-07T02:27:17-07:00   19de4b4f1ab086d03d533f36fbfc9643
 sections/static-giftcard.liquid:
