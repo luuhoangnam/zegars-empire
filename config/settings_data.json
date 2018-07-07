@@ -3,7 +3,7 @@
     "color_background": "#ffffff",
     "color_headings": "#222222",
     "color_text": "#4d4d4d",
-    "color_links": "#1E8570",
+    "color_links": "#1e8570",
     "color_button_background": "#ffab41",
     "color_button_text": "#1a390c",
     "color_header_background": "#30656b",
@@ -12,12 +12,77 @@
     "color_footer_text": "#5c5c5c",
     "type_body": "cabin_n4",
     "type_heading": "cabin_n7",
+    "product_show_vendor": false,
+    "product_enable_recently_viewed_products": true,
+    "product_option_style": "select",
+    "product_sales_badge": true,
+    "product_sales_badge_style": "percentile",
+    "product_ratings_reviews": true,
+    "product_social_sharing": true,
+    "product_slideshow_style": "natural",
+    "product_grid_emphasize_price": true,
+    "product_grid_image_style": "natural",
+    "product_grid_quick_shop": true,
+    "product_grid_quick_buy": true,
+    "quickshop_show_dcb": false,
+    "quickshop_product_cart_redirect": false,
+    "social_facebook": "",
+    "social_twitter": "",
+    "social_google": "",
+    "social_pinterest": "",
+    "social_instagram": "",
+    "social_tumblr": "",
+    "social_vimeo": "",
+    "social_youtube": "",
+    "social_email": "",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "enable_currency_converter": true,
+    "currency_display_format": "money_with_currency_format",
+    "currency_converter_currencies": "USD CAD EUR GBP AUD NZD",
+    "currency_converter_default": "USD",
     "continue_shopping_url": "shopify:\/\/collections\/all",
+    "continue_url_cart": true,
+    "continue_url_404": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/checkout.jpg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
     "sections": {
       "static-header": {
         "type": "static-header",
         "settings": {
-          "announcement_background": "#29927d"
+          "sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/logo200x80.png",
+          "logo_height": 100,
+          "logo_width": 200,
+          "enable_live_search": true,
+          "enable_live_search_images": true,
+          "enable_live_search_articles_pages": true,
+          "quick_links": "",
+          "menu": "main-menu",
+          "show_announcement": true,
+          "homepage_announcement": false,
+          "announcement_text": "FLASH SALE! Up to 70% OFF & FREE Shipping On Orders Over $50",
+          "announcement_text_mobile": "FREE Shipping On Orders Over $50",
+          "announcement_link": "shopify:\/\/collections\/flash-sale",
+          "announcement_color": "#ffffff",
+          "announcement_background": "#29927d",
+          "small_promo_heading": "",
+          "small_promo_text": "",
+          "small_promo_text_mobile": "",
+          "small_promo_link": "",
+          "small_promo_icon": "none",
+          "image": ""
         }
       },
       "home-promo-mosaic": {
@@ -25,15 +90,48 @@
         "blocks": {
           "promo-mosaic-block-1": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Mosaic",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           },
           "promo-mosaic-block-2": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Mosaic",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           },
           "promo-mosaic-block-3": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Mosaic",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           }
         },
         "block_order": [
@@ -41,38 +139,108 @@
           "promo-mosaic-block-2",
           "promo-mosaic-block-3"
         ],
-        "settings": {}
+        "settings": {
+          "title": "Mosaic",
+          "section_height": "small",
+          "text_alignment": "top-left",
+          "maintain_aspect_ratio": false,
+          "compress_blocks": false
+        }
       },
       "home-blog-posts": {
         "type": "dynamic-blog-posts",
-        "settings": {}
+        "settings": {
+          "title": "Blog posts",
+          "blog": "",
+          "show_date": true,
+          "show_author": true,
+          "show_excerpt": true
+        }
       },
       "home-twitter-feed": {
         "type": "dynamic-twitter-feed",
-        "settings": {}
+        "settings": {
+          "title": "Twitter feed",
+          "username": "",
+          "retweets": false,
+          "images": false
+        }
       },
       "home-featured-collection-1": {
         "type": "dynamic-featured-collection",
-        "settings": {}
+        "settings": {
+          "title": "New Arrivals",
+          "collection": "new-arrivals",
+          "banner_color": "#ffffff",
+          "banner_image": ""
+        }
       },
       "home-promo-grid": {
         "type": "dynamic-promo-grid",
         "blocks": {
           "promo-grid-block-1": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Grid",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "promo_width": "half-width",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           },
           "promo-grid-block-2": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Grid",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "promo_width": "half-width",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           },
           "promo-grid-block-3": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Grid",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "promo_width": "half-width",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           },
           "promo-grid-block-4": {
             "type": "promotion",
-            "settings": {}
+            "settings": {
+              "image": "",
+              "title": "Grid",
+              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+              "color": "#4d4d4d",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "promo_width": "half-width",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           }
         },
         "block_order": [
@@ -81,12 +249,170 @@
           "promo-grid-block-3",
           "promo-grid-block-4"
         ],
-        "settings": {}
+        "settings": {
+          "title": "Grid",
+          "section_height": "small",
+          "text_alignment": "top-left",
+          "maintain_aspect_ratio": false,
+          "compress_blocks": false
+        }
       },
       "home-featured-collection-2": {
         "type": "dynamic-featured-collection",
         "settings": {
-          "title": ""
+          "title": "Best Sellers",
+          "collection": "best-sellers",
+          "banner_color": "#ffffff",
+          "banner_image": ""
+        }
+      },
+      "static-slideshow": {
+        "type": "static-slideshow",
+        "blocks": {
+          "static-slideshow-0": {
+            "type": "slide",
+            "settings": {
+              "background_image": "shopify:\/\/shop_images\/sale-sign-on-angled-pink-gray-background.jpg",
+              "title": "FLASH SALE",
+              "text": "Up to 70% OFF for Limited Time.",
+              "color": "#ffffff",
+              "link": "",
+              "button_one_label": "SHOP NOW",
+              "button_one_link": "shopify:\/\/collections\/flash-sale",
+              "button_one_style": "primary",
+              "button_two_label": "",
+              "button_two_link": "",
+              "button_two_style": "primary",
+              "show_overlay": true,
+              "overlay_color": "#000000",
+              "overlay_opacity": 50
+            }
+          }
+        },
+        "block_order": [
+          "static-slideshow-0"
+        ],
+        "settings": {
+          "show_slideshow": true,
+          "enable_autoplay": false,
+          "autoplay_duration": 8,
+          "slideshow_height": "medium"
+        }
+      },
+      "static-highlights-banners": {
+        "type": "static-highlights-banners",
+        "blocks": {
+          "static-highlights-banners-0": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-delivery",
+              "image": "",
+              "title": "Free Shipping",
+              "text": "When you spend $50+",
+              "link": ""
+            }
+          },
+          "static-highlights-banners-1": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-smile",
+              "image": "",
+              "title": "Maximize Happiness",
+              "text": "24\/7 Customer Service",
+              "link": ""
+            }
+          },
+          "static-highlights-banners-2": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-transfer",
+              "image": "",
+              "title": "30 Days Return",
+              "text": "Hassle-Free Return Guaranteed",
+              "link": ""
+            }
+          },
+          "static-highlights-banners-3": {
+            "type": "highlight",
+            "settings": {
+              "icon": "icon-gift-card",
+              "image": "",
+              "title": "Curiously & Surprisingly",
+              "text": "The best gift you ever received",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "static-highlights-banners-0",
+          "static-highlights-banners-1",
+          "static-highlights-banners-2",
+          "static-highlights-banners-3"
+        ],
+        "settings": {
+          "show_highlights_banner": true,
+          "color": "#4d4d4d",
+          "icon_color": "#4d4d4d",
+          "background_color": "#f8f8f8"
+        }
+      },
+      "static-footer": {
+        "type": "static-footer",
+        "blocks": {
+          "static-footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "static-footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Subscribe",
+              "text": "<p>Receive the best of the best of the most&nbsp;SURPRISINGLY and CURIOUSLY gift DISCOUNT weekly.<\/p>"
+            }
+          },
+          "1530954071360": {
+            "type": "menu",
+            "settings": {
+              "menu": "second-footer"
+            }
+          },
+          "1530954089924": {
+            "type": "rich_text",
+            "settings": {
+              "title": "Need a friend's help?",
+              "text": "<p>Feel free to drop an email to your friend at <a href=\"mailto:contact@zegars.com\" title=\"mailto:contact@zegars.com\">contact@zegars.com<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "static-footer-0",
+          "1530954071360",
+          "1530954089924",
+          "static-footer-1"
+        ],
+        "settings": {
+          "payment_icons": true,
+          "additional_menu": "footer"
+        }
+      },
+      "static-product": {
+        "type": "static-product",
+        "settings": {
+          "layout": "layout--two-col",
+          "enable_related_products": true,
+          "enable_video_autoplay": false,
+          "show_dcb": false,
+          "product_cart_redirect": false
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "settings": {
+          "enable_order_notes": false,
+          "enable_shipping_calc": true,
+          "shipping_calc_default_country": "United States"
         }
       }
     },
