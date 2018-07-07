@@ -147,13 +147,29 @@
               "background": "",
               "opacity": 50
             }
+          },
+          "1530956151669": {
+            "type": "promotion",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/montessori-waldorf-toys-and-toddlers.jpg",
+              "title": "Toys & Kids",
+              "text": "",
+              "color": "#ffffff",
+              "block_link": "",
+              "button_text": "",
+              "button_style": "primary",
+              "show_overlay": false,
+              "background": "",
+              "opacity": 50
+            }
           }
         },
         "block_order": [
           "promo-mosaic-block-1",
           "promo-mosaic-block-2",
           "promo-mosaic-block-3",
-          "1530956102099"
+          "1530956102099",
+          "1530956151669"
         ],
         "settings": {
           "title": "EXPLORE",
@@ -163,25 +179,6 @@
           "compress_blocks": true
         }
       },
-      "home-blog-posts": {
-        "type": "dynamic-blog-posts",
-        "settings": {
-          "title": "Blog posts",
-          "blog": "",
-          "show_date": true,
-          "show_author": true,
-          "show_excerpt": true
-        }
-      },
-      "home-twitter-feed": {
-        "type": "dynamic-twitter-feed",
-        "settings": {
-          "title": "Twitter feed",
-          "username": "",
-          "retweets": false,
-          "images": false
-        }
-      },
       "home-featured-collection-1": {
         "type": "dynamic-featured-collection",
         "settings": {
@@ -189,88 +186,6 @@
           "collection": "new-arrivals",
           "banner_color": "#ffffff",
           "banner_image": ""
-        }
-      },
-      "home-promo-grid": {
-        "type": "dynamic-promo-grid",
-        "blocks": {
-          "promo-grid-block-1": {
-            "type": "promotion",
-            "settings": {
-              "image": "",
-              "title": "Grid",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
-              "block_link": "",
-              "button_text": "",
-              "button_style": "primary",
-              "promo_width": "half-width",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          },
-          "promo-grid-block-2": {
-            "type": "promotion",
-            "settings": {
-              "image": "",
-              "title": "Grid",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
-              "block_link": "",
-              "button_text": "",
-              "button_style": "primary",
-              "promo_width": "half-width",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          },
-          "promo-grid-block-3": {
-            "type": "promotion",
-            "settings": {
-              "image": "",
-              "title": "Grid",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
-              "block_link": "",
-              "button_text": "",
-              "button_style": "primary",
-              "promo_width": "half-width",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          },
-          "promo-grid-block-4": {
-            "type": "promotion",
-            "settings": {
-              "image": "",
-              "title": "Grid",
-              "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-              "color": "#4d4d4d",
-              "block_link": "",
-              "button_text": "",
-              "button_style": "primary",
-              "promo_width": "half-width",
-              "show_overlay": false,
-              "background": "",
-              "opacity": 50
-            }
-          }
-        },
-        "block_order": [
-          "promo-grid-block-1",
-          "promo-grid-block-2",
-          "promo-grid-block-3",
-          "promo-grid-block-4"
-        ],
-        "settings": {
-          "title": "Grid",
-          "section_height": "small",
-          "text_alignment": "top-left",
-          "maintain_aspect_ratio": false,
-          "compress_blocks": false
         }
       },
       "home-featured-collection-2": {
@@ -288,7 +203,7 @@
           "static-slideshow-0": {
             "type": "slide",
             "settings": {
-              "background_image": "shopify:\/\/shop_images\/sale-sign-on-angled-pink-gray-background.jpg",
+              "background_image": "shopify:\/\/shop_images\/sale-tag-online-shopping.jpg",
               "title": "FLASH SALE",
               "text": "Up to 70% OFF for Limited Time.",
               "color": "#ffffff",
@@ -430,15 +345,22 @@
           "enable_shipping_calc": true,
           "shipping_calc_default_country": "United States"
         }
+      },
+      "1530956271442": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Watches",
+          "collection": "watches",
+          "banner_color": "#ffffff",
+          "banner_image": ""
+        }
       }
     },
     "content_for_index": [
       "home-promo-mosaic",
-      "home-promo-grid",
       "home-featured-collection-1",
       "home-featured-collection-2",
-      "home-blog-posts",
-      "home-twitter-feed"
+      "1530956271442"
     ]
   },
   "presets": {
