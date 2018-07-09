@@ -26,15 +26,15 @@
     "product_grid_quick_buy": true,
     "quickshop_show_dcb": false,
     "quickshop_product_cart_redirect": false,
-    "social_facebook": "",
+    "social_facebook": "fb.com\/joinzegars",
     "social_twitter": "",
-    "social_google": "",
-    "social_pinterest": "",
-    "social_instagram": "",
+    "social_google": "https:\/\/plus.google.com\/109808219553290309510",
+    "social_pinterest": "https:\/\/www.pinterest.com\/joinzegars\/",
+    "social_instagram": "http:\/\/instagram.com\/joinzegars",
     "social_tumblr": "",
     "social_vimeo": "",
-    "social_youtube": "",
-    "social_email": "",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCpnq07J5RdFJmIZ3foT2VHg",
+    "social_email": "contact@zegars.com",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
     "enable_currency_converter": true,
     "currency_display_format": "money_with_currency_format",
@@ -302,25 +302,22 @@
               "menu": "second-footer"
             }
           },
-          "1530954089924": {
-            "type": "rich_text",
-            "settings": {
-              "title": "Need a friend's help?",
-              "text": "<p>Feel free to drop an email to your friend at <a href=\"mailto:contact@zegars.com\" title=\"mailto:contact@zegars.com\">contact@zegars.com<\/a><\/p>"
-            }
-          },
           "static-footer-1": {
             "type": "newsletter",
             "settings": {
               "title": "Subscribe",
               "text": "<p>Receive the best of the best of the most&nbsp;SURPRISINGLY and CURIOUSLY gift DISCOUNT weekly.<\/p>"
             }
+          },
+          "1531104600508": {
+            "type": "social_accounts",
+            "settings": {}
           }
         },
         "block_order": [
           "static-footer-0",
           "1530954071360",
-          "1530954089924",
+          "1531104600508",
           "static-footer-1"
         ],
         "settings": {
