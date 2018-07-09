@@ -5,6 +5,8 @@ assets/empire.js.map:
   development: 2018-07-05T23:41:17-07:00   c844758e6e1c524ecebdb6778085cc4d
 assets/jquery.cart.js:
   development: 2018-07-05T23:41:17-07:00   d561b356ead76b3d4a147f96eb34be98
+assets/roiheasy-conversion.js:
+  development: 2018-07-08T19:48:18-07:00   5852c5d4ce9ae6cd34fcddbc15529dd0
 assets/theme.scss.liquid:
   development: 2018-07-05T23:41:18-07:00   d0be18ffad80174fcf9d8004a105b834
 config/settings_data.json:
@@ -16,7 +18,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-05T23:41:18-07:00   758433aea5e47e45a17ba2318e5f8d48
+  development: 2018-07-08T19:48:17-07:00   660e7ae3e073673d4ce86e8d872c907e
 locales/en.default.json:
   development: 2018-07-05T23:41:18-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -45,6 +47,8 @@ sections/dynamic-twitter-feed.liquid:
   development: 2018-07-05T23:41:16-07:00   fd7e4943e6573f0cfd7363210ea95a4f
 sections/dynamic-video.liquid:
   development: 2018-07-05T23:41:16-07:00   7b8305a6169662f4edfe1086a0b9d09e
+sections/loox-all-reviews.liquid:
+  development: 2018-07-08T19:48:16-07:00   90f9dd4333c5db34478a1a6cb1349a4f
 sections/pxs-image-with-text-overlay.liquid:
   development: 2018-07-05T23:41:16-07:00   09529ab74d7a9d1e61b5a09aee36ef0e
 sections/pxs-map.liquid:
@@ -107,6 +111,8 @@ snippets/favicon.liquid:
   development: 2018-07-05T23:41:18-07:00   17dac714316cd7dd3dcdb410d3180482
 snippets/footer-block.liquid:
   development: 2018-07-05T23:41:18-07:00   08e311d246c19436e5986486e28a2298
+snippets/hurrify-snippet.liquid:
+  development: 2018-07-08T19:48:16-07:00   998a7821ba8c86ed7f2c47bb3574cc0d
 snippets/icon-cart.liquid:
   development: 2018-07-05T23:41:18-07:00   10e3ba40c4ac001cfb315cfa4019a421
 snippets/icon-checkbox.liquid:
@@ -274,7 +280,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-07-05T23:41:22-07:00   2fdfbecb3470b2a25e6559a816577052
 templates/product.liquid:
-  development: 2018-07-05T23:41:22-07:00   2224ba9104b259ef924f5f5d433d47a9
+  development: 2018-07-08T19:48:17-07:00   3df33b08e0a405a63797ef809a639476
 templates/search.header.liquid:
   development: 2018-07-05T23:41:22-07:00   3d0157f0de90c1135c4a58c343135d08
 templates/search.liquid:
