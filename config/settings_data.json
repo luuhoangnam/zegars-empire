@@ -140,7 +140,7 @@
               "title": "Home",
               "text": "",
               "color": "#ffffff",
-              "block_link": "",
+              "block_link": "shopify:\/\/collections\/home-garden",
               "button_text": "",
               "button_style": "primary",
               "show_overlay": false,
@@ -302,16 +302,16 @@
               "menu": "second-footer"
             }
           },
+          "1531104600508": {
+            "type": "social_accounts",
+            "settings": {}
+          },
           "static-footer-1": {
             "type": "newsletter",
             "settings": {
               "title": "Subscribe",
               "text": "<p>Receive the best of the best of the most&nbsp;SURPRISINGLY and CURIOUSLY gift DISCOUNT weekly.<\/p>"
             }
-          },
-          "1531104600508": {
-            "type": "social_accounts",
-            "settings": {}
           }
         },
         "block_order": [
