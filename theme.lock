@@ -2,7 +2,7 @@
 assets/empire.js:
   development: 2018-07-07T02:27:19-07:00   a204465b1df07fbab1fe9dc9ced784eb
 assets/empire.js.map:
-  development: 2018-07-05T23:41:17-07:00   c844758e6e1c524ecebdb6778085cc4d
+  development: 2018-07-10T01:27:25-07:00   c844758e6e1c524ecebdb6778085cc4d
 assets/jquery.cart.js:
   development: 2018-07-05T23:41:17-07:00   d561b356ead76b3d4a147f96eb34be98
 assets/roiheasy-conversion.js:
@@ -12,7 +12,7 @@ assets/theme.scss.liquid:
 config/settings_data.json:
   development: 2018-07-10T01:07:12-07:00   0a72906d66c9adf6e4eb697dd48f600d
 config/settings_schema.json:
-  development: 2018-07-05T23:41:22-07:00   d02a79c79ede4ddf4198e77097f4eae5
+  development: 2018-07-10T01:26:55-07:00   d02a79c79ede4ddf4198e77097f4eae5
 layout/giftcard.liquid:
   development: 2018-07-05T23:41:18-07:00   418bf418733d0f03e70260703a6f7c4d
 layout/none.liquid:
@@ -20,7 +20,7 @@ layout/none.liquid:
 layout/theme.liquid:
   development: 2018-07-08T19:48:17-07:00   660e7ae3e073673d4ce86e8d872c907e
 locales/en.default.json:
-  development: 2018-07-05T23:41:18-07:00   e46f2b4c835e183d06ca97140fc55a64
+  development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
   development: 2018-07-05T23:41:15-07:00   7345b04a5dbd434db7174f3b5a2229fb
 sections/dynamic-collection-list.liquid:
@@ -47,12 +47,10 @@ sections/dynamic-twitter-feed.liquid:
   development: 2018-07-05T23:41:16-07:00   fd7e4943e6573f0cfd7363210ea95a4f
 sections/dynamic-video.liquid:
   development: 2018-07-05T23:41:16-07:00   7b8305a6169662f4edfe1086a0b9d09e
-sections/loox-all-reviews.liquid:
-  development: 2018-07-08T19:48:16-07:00   90f9dd4333c5db34478a1a6cb1349a4f
 sections/pxs-image-with-text-overlay.liquid:
   development: 2018-07-05T23:41:16-07:00   09529ab74d7a9d1e61b5a09aee36ef0e
 sections/pxs-map.liquid:
-  development: 2018-07-05T23:41:16-07:00   17bf3136a7a8d98d5560292e148bec2d
+  development: 2018-07-10T01:26:24-07:00   17bf3136a7a8d98d5560292e148bec2d
 sections/pxs-newsletter.liquid:
   development: 2018-07-05T23:41:16-07:00   8b5a43c884ad5d7d05e287b545a1169c
 sections/static-article.liquid:
@@ -280,7 +278,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-07-05T23:41:22-07:00   2fdfbecb3470b2a25e6559a816577052
 templates/product.liquid:
-  development: 2018-07-10T01:14:53-07:00   d4eea8d12f323c90510034256dc3a41b
+  development: 2018-07-10T01:25:40-07:00   2224ba9104b259ef924f5f5d433d47a9
 templates/search.header.liquid:
   development: 2018-07-05T23:41:22-07:00   3d0157f0de90c1135c4a58c343135d08
 templates/search.liquid:
