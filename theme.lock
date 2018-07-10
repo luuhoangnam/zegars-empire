@@ -190,7 +190,7 @@ snippets/product-options.liquid:
 snippets/product-price.liquid:
   development: 2018-07-05T23:41:20-07:00   13c4cc168e86b1dc98813d771b61ae02
 snippets/product.liquid:
-  development: 2018-07-05T23:41:20-07:00   c41464f7c7bb21d780d959c201825bbf
+  development: 2018-07-10T01:17:56-07:00   c41464f7c7bb21d780d959c201825bbf
 snippets/promo-block-background.liquid:
   development: 2018-07-05T23:41:20-07:00   ba1b016dc376942b73481d34b8ceeeb2
 snippets/promo-block.liquid:
@@ -280,7 +280,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-07-05T23:41:22-07:00   2fdfbecb3470b2a25e6559a816577052
 templates/product.liquid:
-  development: 2018-07-08T19:48:17-07:00   3df33b08e0a405a63797ef809a639476
+  development: 2018-07-10T01:14:53-07:00   d4eea8d12f323c90510034256dc3a41b
 templates/search.header.liquid:
   development: 2018-07-05T23:41:22-07:00   3d0157f0de90c1135c4a58c343135d08
 templates/search.liquid:
