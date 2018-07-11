@@ -10,7 +10,7 @@ assets/roiheasy-conversion.js:
 assets/theme.scss.liquid:
   development: 2018-07-05T23:41:18-07:00   d0be18ffad80174fcf9d8004a105b834
 config/settings_data.json:
-  development: 2018-07-10T01:07:12-07:00   0a72906d66c9adf6e4eb697dd48f600d
+  development: 2018-07-11T00:06:15-07:00   80aa9ff18d39badc3d6fea15a70b4ed6
 config/settings_schema.json:
   development: 2018-07-10T01:26:55-07:00   d02a79c79ede4ddf4198e77097f4eae5
 layout/giftcard.liquid:
@@ -18,7 +18,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-08T19:48:17-07:00   660e7ae3e073673d4ce86e8d872c907e
+  development: 2018-07-11T00:03:27-07:00   8f799cec16244cb1d36cf8760b0aec85
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -231,6 +231,8 @@ snippets/structured-data.liquid:
   development: 2018-07-05T23:41:21-07:00   99f22f8143d32587a7251440d7908c25
 snippets/svg-sprite.liquid:
   development: 2018-07-05T23:41:21-07:00   89196daa4fcb4edc9ba0fd471bae1159
+snippets/trackify.liquid:
+  development: 2018-07-11T00:03:27-07:00   bc90c4215e16fd4b74e62dbf6c6a10e7
 snippets/tweet.liquid:
   development: 2018-07-05T23:41:21-07:00   410f2ebcd880b49a7d8028bec32fa758
 snippets/video.liquid:

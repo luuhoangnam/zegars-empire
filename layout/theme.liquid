@@ -61,6 +61,8 @@
     {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
   
 	{{ shop.metafields.loox["global_html_head"] }}
+
+  {% include "trackify" %}
 </head>
 
   <body>
@@ -115,6 +117,8 @@
 This piece of Liquid template code is injected to the layout/theme.liquid.
 This code is rendered directly within every page.
 {% endcomment %}
+
+</script>{% include "hurrify-snippet" %}
 
 <script type="text/javascript" id="roihuntereasy">
 /* <![CDATA[ */
@@ -179,5 +183,6 @@ This code is rendered directly within every page.
 
 
 /* ]]> */
-</script>{% include "hurrify-snippet" %}</body>
+
+</body>
 </html>
