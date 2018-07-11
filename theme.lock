@@ -10,7 +10,7 @@ assets/roiheasy-conversion.js:
 assets/theme.scss.liquid:
   development: 2018-07-05T23:41:18-07:00   d0be18ffad80174fcf9d8004a105b834
 config/settings_data.json:
-  development: 2018-07-11T00:06:15-07:00   80aa9ff18d39badc3d6fea15a70b4ed6
+  development: 2018-07-11T03:32:06-07:00   4807bf1f2e28e8f48927fcbbfb9ceac3
 config/settings_schema.json:
   development: 2018-07-10T01:26:55-07:00   d02a79c79ede4ddf4198e77097f4eae5
 layout/giftcard.liquid:

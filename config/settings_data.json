@@ -95,7 +95,7 @@
               "title": "Electronics",
               "text": "",
               "color": "#ffffff",
-              "block_link": "shopify:\/\/collections\/all",
+              "block_link": "shopify:\/\/collections\/electronics",
               "button_text": "",
               "button_style": "primary",
               "show_overlay": false,
@@ -110,7 +110,7 @@
               "title": "Fashion",
               "text": "",
               "color": "#ffffff",
-              "block_link": "",
+              "block_link": "shopify:\/\/collections\/fashion",
               "button_text": "",
               "button_style": "primary",
               "show_overlay": false,
@@ -328,7 +328,7 @@
       "static-product": {
         "type": "static-product",
         "settings": {
-          "layout": "layout--two-col",
+          "layout": "layout--three-col",
           "enable_related_products": true,
           "enable_video_autoplay": false,
           "show_dcb": false,
