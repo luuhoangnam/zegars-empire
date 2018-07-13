@@ -18,7 +18,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-12T22:40:18-07:00   42d5804aa82b15bf01d19dbd88feb438
+  development: 2018-07-13T01:01:56-07:00   42d5804aa82b15bf01d19dbd88feb438
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -47,6 +47,8 @@ sections/dynamic-twitter-feed.liquid:
   development: 2018-07-05T23:41:16-07:00   fd7e4943e6573f0cfd7363210ea95a4f
 sections/dynamic-video.liquid:
   development: 2018-07-05T23:41:16-07:00   7b8305a6169662f4edfe1086a0b9d09e
+sections/loox-all-reviews.liquid:
+  development: 2018-07-13T01:04:31-07:00   90f9dd4333c5db34478a1a6cb1349a4f
 sections/pxs-image-with-text-overlay.liquid:
   development: 2018-07-05T23:41:16-07:00   09529ab74d7a9d1e61b5a09aee36ef0e
 sections/pxs-map.liquid:
@@ -280,7 +282,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-07-05T23:41:22-07:00   2fdfbecb3470b2a25e6559a816577052
 templates/product.liquid:
-  development: 2018-07-12T22:40:19-07:00   4fd1e4dd4e326ff5a6a81d08e89806f7
+  development: 2018-07-13T01:04:32-07:00   6909404002ce405160feacfb2facab6e
 templates/search.header.liquid:
   development: 2018-07-05T23:41:22-07:00   3d0157f0de90c1135c4a58c343135d08
 templates/search.liquid:
