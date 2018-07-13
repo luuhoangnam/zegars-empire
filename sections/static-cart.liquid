@@ -95,6 +95,10 @@
     {% endif %}
   </header>
 
+  {%- comment -%} BEGIN: Banana Stand Cart Timer {%- endcomment -%}
+  {% include 'banana-stand-cart-top-container' %}
+  {%- comment -%} END: Banana Stand Cart Timer {%- endcomment -%}
+
   <section class="cartitems--container {% if has_sidebar %}has-sidebar{% endif %}">
     <div class="cartitems">
       {% if has_items %}

@@ -279,7 +279,8 @@
       >
         {{ modal_html | json }}
       </script>
-    </div>
+      {% include 'banana-stand-product-list-container' %}
+</div>
   {% endif %}
 
   {% if enable_quick_buy %}
@@ -291,3 +292,4 @@
     </script>
   {% endif %}
 </article>
+
