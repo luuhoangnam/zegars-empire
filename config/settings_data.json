@@ -17,7 +17,7 @@
     "product_option_style": "select",
     "product_sales_badge": true,
     "product_sales_badge_style": "percentile",
-    "product_ratings_reviews": true,
+    "product_ratings_reviews": false,
     "product_social_sharing": true,
     "product_slideshow_style": "natural",
     "product_grid_emphasize_price": true,
@@ -350,6 +350,21 @@
           "collection": "watches",
           "banner_color": "#ffffff",
           "banner_image": ""
+        }
+      },
+      "static-collection": {
+        "type": "static-collection",
+        "settings": {
+          "show_collection_image": true,
+          "products_per_page_range": 24,
+          "sort_by": true,
+          "show_by": true,
+          "grid_list": true,
+          "show_sidebar": true,
+          "filter_style": "tags",
+          "filter_limit": "999",
+          "filter_position": "above_menus",
+          "menu_depth_range": 1
         }
       }
     },

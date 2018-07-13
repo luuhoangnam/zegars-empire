@@ -105,6 +105,10 @@
         </div>
       {% endif %}
 
+      {%- comment -%} BEGIN: Loox Star Ratings {%- endcomment -%}
+      <div class="loox-rating" data-id="{{ product.id }}" data-rating="{{ product.metafields.loox.avg_rating }}" data-raters="{{ product.metafields.loox.num_reviews }}"></div>
+      {%- comment -%} END: Loox Star Ratings {%- endcomment -%}
+
       <div class="product-pricing">
         {%
           include 'product-badge',
@@ -182,4 +186,8 @@
   {% if layout == 'layout--three-col' %}
     <div class="product-form--alt" data-product-form-alt></div>
   {% endif %}
+
+  {%- comment -%} BEGIN: Loox Reviews Widget {%- endcomment -%}
+  <div id="looxReviews" data-product-id="{{product.id}}" >{{ product.metafields.loox.reviews }}</div>
+  {%- comment -%} END: Loox Reviews Widget {%- endcomment -%}
 </article>
