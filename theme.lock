@@ -18,7 +18,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-11T00:03:27-07:00   8f799cec16244cb1d36cf8760b0aec85
+  development: 2018-07-12T22:40:18-07:00   42d5804aa82b15bf01d19dbd88feb438
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -280,7 +280,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-07-05T23:41:22-07:00   2fdfbecb3470b2a25e6559a816577052
 templates/product.liquid:
-  development: 2018-07-10T01:25:40-07:00   2224ba9104b259ef924f5f5d433d47a9
+  development: 2018-07-12T22:40:19-07:00   4fd1e4dd4e326ff5a6a81d08e89806f7
 templates/search.header.liquid:
   development: 2018-07-05T23:41:22-07:00   3d0157f0de90c1135c4a58c343135d08
 templates/search.liquid:
