@@ -108,9 +108,9 @@ snippets/banana-stand-cart-top-container.liquid:
 snippets/banana-stand-footer.liquid:
   development: 2018-07-13T02:03:21-07:00   12e2a9873537c1069d01febaf7e85fd3
 snippets/banana-stand-product-list-container.liquid:
-  development: 2018-07-13T02:03:22-07:00   c702e4fe5d1316ee74c83d2d1967dedd
+  development: 2018-07-13T16:13:18-07:00   1c08e88d8325ee7cb63ef2393744329d
 snippets/banana-stand-product-page-container.liquid:
-  development: 2018-07-13T02:03:23-07:00   dbd34672b2fbe4e2c593723742f2c484
+  development: 2018-07-13T16:13:17-07:00   9830ea501ac31b38ddcf08e3cad8860b
 snippets/breadcrumbs.liquid:
   development: 2018-07-05T23:41:18-07:00   fde213f35e3c2ff6b3ab771031251dc3
 snippets/cart-item.liquid:
