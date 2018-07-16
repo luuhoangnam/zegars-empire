@@ -24,7 +24,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-15T23:38:31-07:00   b7da47f7d1b7f3c03e7b867e7020b1ec
+  development: 2018-07-16T16:10:58-07:00   425d06fe603674b34a28c94384424a15
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
