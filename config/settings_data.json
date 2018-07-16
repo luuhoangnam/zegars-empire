@@ -366,13 +366,23 @@
           "filter_position": "above_menus",
           "menu_depth_range": 1
         }
+      },
+      "1531739105067": {
+        "type": "dynamic-featured-collection",
+        "settings": {
+          "title": "Lovely Home Companions",
+          "collection": "home-garden",
+          "banner_color": "#ffffff",
+          "banner_image": ""
+        }
       }
     },
     "content_for_index": [
       "home-promo-mosaic",
       "home-featured-collection-1",
       "home-featured-collection-2",
-      "1530956271442"
+      "1530956271442",
+      "1531739105067"
     ]
   },
   "presets": {

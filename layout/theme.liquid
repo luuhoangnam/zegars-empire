@@ -2,6 +2,7 @@
 <!--[if IE]><html class="no-js no-touch ie9" lang="{{ shop.locale }}"><![endif]-->
 <!--[if !IE]><!--><html class="no-js no-touch" lang="{{ shop.locale }}"><!--<![endif]-->
   <head>
+    {% include "trackify" %}
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
 
@@ -62,8 +63,6 @@
     {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
   
 	{{ shop.metafields.loox["global_html_head"] }}
-
-  {% include "trackify" %}
 </head>
 
   <body>
