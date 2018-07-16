@@ -24,7 +24,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-13T02:03:23-07:00   44412e42823af05183b5526721205a46
+  development: 2018-07-15T23:35:24-07:00   fd5c61488d6dd6ad67d463918459ebaa
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -248,7 +248,7 @@ snippets/structured-data.liquid:
 snippets/svg-sprite.liquid:
   development: 2018-07-05T23:41:21-07:00   89196daa4fcb4edc9ba0fd471bae1159
 snippets/trackify.liquid:
-  development: 2018-07-11T00:03:27-07:00   bc90c4215e16fd4b74e62dbf6c6a10e7
+  development: 2018-07-15T23:35:23-07:00   bc90c4215e16fd4b74e62dbf6c6a10e7
 snippets/tweet.liquid:
   development: 2018-07-05T23:41:21-07:00   410f2ebcd880b49a7d8028bec32fa758
 snippets/video.liquid:
