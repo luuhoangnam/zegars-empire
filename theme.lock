@@ -24,7 +24,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-16T16:10:58-07:00   425d06fe603674b34a28c94384424a15
+  development: 2018-07-16T21:00:41-07:00   d0edd71ab4e1546ca035f3d83012207d
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -157,6 +157,10 @@ snippets/icon-search.liquid:
   development: 2018-07-05T23:41:19-07:00   9d7814400c64d8b92f4a2c98c1525759
 snippets/icon-spinner.liquid:
   development: 2018-07-05T23:41:19-07:00   52313ef50bcafdae0b5c11d9edd8ade0
+snippets/klaviyo-product-tag.liquid:
+  development: 2018-07-16T20:11:54-07:00   37215412a32875fe923acb4bc5a125c0
+snippets/klaviyo-theme-tag.liquid:
+  development: 2018-07-16T20:11:53-07:00   c0d018aad600149b80040cb7a2a4dce5
 snippets/live-search-form.liquid:
   development: 2018-07-05T23:41:19-07:00   d803b9dbcb14a674a7e9923a64365beb
 snippets/meganav-image-block.liquid:
@@ -296,7 +300,7 @@ templates/page.liquid:
 templates/password.liquid:
   development: 2018-07-05T23:41:22-07:00   2fdfbecb3470b2a25e6559a816577052
 templates/product.liquid:
-  development: 2018-07-13T01:28:37-07:00   c03f71b72a352f4d85b3169939ed7699
+  development: 2018-07-16T20:11:52-07:00   e36ea11def5ffbc3db1a5e341d93ab96
 templates/search.header.liquid:
   development: 2018-07-05T23:41:22-07:00   3d0157f0de90c1135c4a58c343135d08
 templates/search.liquid:
