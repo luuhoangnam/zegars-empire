@@ -64,6 +64,8 @@
     {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
   
 	{{ shop.metafields.loox["global_html_head"] }}
+
+  {% include 'hotjar' %}
 </head>
 
   <body>

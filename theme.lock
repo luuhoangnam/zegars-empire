@@ -24,7 +24,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-18T03:09:36-07:00   d0edd71ab4e1546ca035f3d83012207d
+  development: 2018-07-25T02:52:24-07:00   a8f048255598822c573af35cb3947c6d
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -108,9 +108,9 @@ snippets/banana-stand-cart-top-container.liquid:
 snippets/banana-stand-footer.liquid:
   development: 2018-07-13T02:03:21-07:00   12e2a9873537c1069d01febaf7e85fd3
 snippets/banana-stand-product-list-container.liquid:
-  development: 2018-07-18T03:09:33-07:00   1c08e88d8325ee7cb63ef2393744329d
+  development: 2018-07-23T20:55:00-07:00   217afd9637355c6d8c1d04b0ae27b666
 snippets/banana-stand-product-page-container.liquid:
-  development: 2018-07-18T03:09:35-07:00   9830ea501ac31b38ddcf08e3cad8860b
+  development: 2018-07-23T20:55:00-07:00   a3949fe3b0b27d5ef0761b3253146955
 snippets/breadcrumbs.liquid:
   development: 2018-07-05T23:41:18-07:00   fde213f35e3c2ff6b3ab771031251dc3
 snippets/cart-item.liquid:
@@ -125,6 +125,8 @@ snippets/favicon.liquid:
   development: 2018-07-05T23:41:18-07:00   17dac714316cd7dd3dcdb410d3180482
 snippets/footer-block.liquid:
   development: 2018-07-05T23:41:18-07:00   08e311d246c19436e5986486e28a2298
+snippets/hotjar.liquid:
+  development: 2018-07-25T02:52:24-07:00   32f2c548edcd95e03409c3cf07a0675e
 snippets/hurrify-snippet.liquid:
   development: 2018-07-08T19:48:16-07:00   998a7821ba8c86ed7f2c47bb3574cc0d
 snippets/icon-cart.liquid:
