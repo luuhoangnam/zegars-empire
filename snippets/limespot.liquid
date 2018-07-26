@@ -1,4 +1,4 @@
-<script type="text/javascript" async src="https://edge.personalizer.io/storefront/2.0.0/js/shopify/storefront.min.js?key=xznbw-mj4gbq3iap2qpa4u7m-yair4"></script>
+<script type="text/javascript" async src="https://edge.personalizer.io/storefront/2.0.0/js/shopify/storefront.min.js?key=jkr8n-vih4a3wcm2d4rk7h-vzgh7"></script>
 <script>
 window.LimeSpot = window.LimeSpot === undefined ? {} : LimeSpot;{% assign t = template | prepend: '/' | append: '.' %}
 {% if t contains '/product.' %}LimeSpot.PageInfo = { Type: "Product", ReferenceIdentifier: "{{ product.id }}"};
@@ -16,4 +16,4 @@ LimeSpot.StoreInfo = { Theme: "{{ theme.name }}" };
 {% endfor %}
 LimeSpot.CartItems = [{{ cart_product_ids | remove_first: "," }}];
 </script>
-{% comment %}Checksum: 819b1e5130daab47cdfff724a9fd240e{% endcomment %}
+{% comment %}Checksum: be4bc4cc39848ce98be78a71c580159a{% endcomment %}
