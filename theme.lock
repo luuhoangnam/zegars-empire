@@ -20,7 +20,7 @@ assets/theme.scss.liquid:
 assets/trust-icons.jpg:
   development: 2018-07-13T01:42:53-07:00   23fb165772ff69971fd1e073e2e3420a
 config/settings_data.json:
-  development: 2018-07-26T00:19:33-07:00   96917eb9a75b162f43d5001cf4b7f824
+  development: 2018-07-26T01:42:13-07:00   96917eb9a75b162f43d5001cf4b7f824
 config/settings_schema.json:
   development: 2018-07-10T01:26:55-07:00   d02a79c79ede4ddf4198e77097f4eae5
 layout/giftcard.liquid:
