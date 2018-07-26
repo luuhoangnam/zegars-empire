@@ -63,9 +63,10 @@
     {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
     {{ 'custom.scss.css' | asset_url | stylesheet_tag }}
   
-	{{ shop.metafields.loox["global_html_head"] }}
+    {{ shop.metafields.loox["global_html_head"] }}
 
-  {% include 'hotjar' %}
+    {% include 'hotjar' %}
+    {% include 'limespot' %}
 </head>
 
   <body>
@@ -78,6 +79,9 @@
       {% endif %}
 
       {{ content_for_layout }}
+
+      <limespot></limespot>
+      
     </main>
 
     {% section 'static-footer' %}
