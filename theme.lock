@@ -115,6 +115,10 @@ snippets/banana-stand-product-list-container.liquid:
   development: 2018-07-23T20:55:00-07:00   217afd9637355c6d8c1d04b0ae27b666
 snippets/banana-stand-product-page-container.liquid:
   development: 2018-07-23T20:55:00-07:00   a3949fe3b0b27d5ef0761b3253146955
+snippets/bold-checkout-customer.liquid:
+  development: 2018-07-26T01:19:22-07:00   d338cbf1826dd702d99c60fa6f179374
+snippets/bold-checkout-loader.liquid:
+  development: 2018-07-26T01:19:23-07:00   7318ebdfc551c2af1055177e7206261e
 snippets/bold-common.liquid:
   development: 2018-07-26T01:16:29-07:00   a4e71f55fb072c2b4ab7bbccd7fb2dcc
 snippets/breadcrumbs.liquid:
