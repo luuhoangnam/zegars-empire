@@ -1,0 +1,62 @@
+<script type="text/javascript" id="roihuntereasy">
+/* <![CDATA[ */
+  // original ecomm_prodid = 'shopify_{{ shopify_store_country  }}_{{ item.product.id }}_{{ item.variant.id }}'
+  {% if template contains 'cart' %}
+  var roihuntereasy_google_tag_params = {
+      ecomm_prodid: [{% for item in cart.items %}'shopify_{{ item.product.id }}_{{ item.variant.id }}'{% unless forloop.last %}, {% endunless %}{% endfor %}],
+      ecomm_pagetype: 'cart',
+      ecomm_totalvalue: {{ cart.total_price | money_without_currency | remove: '.' | remove: ','  | divided_by: 100.0 }}
+  };
+
+  {% elsif template contains 'collection' %}
+  var roihuntereasy_google_tag_params = {
+      ecomm_prodid: [{% for item in collection.products limit:5 %}'shopify_{{ item.id }}_{{ item.variants.first.id }}'{% unless forloop.last %}, {% endunless %}{% endfor %}],
+      ecomm_pagetype: 'category',
+      ecomm_category: '{{ collection.handle }}'
+  };
+
+  {% elsif template contains 'product' %}
+  var roihuntereasy_google_tag_params = {
+      ecomm_prodid: 'shopify_{{ product.id }}_{{ product.selected_or_first_available_variant.id }}',
+      ecomm_pagetype: 'product',
+      ecomm_totalvalue: {{ product.price | money_without_currency | remove: '.' | remove: ','  | divided_by: 100.0 }}
+  };
+  {% endif %}
+
+  /* Load Script function we may need to load jQuery from the Google's CDN */
+  /* That code is world-reknown. */
+  /* One source: http://snipplr.com/view/18756/loadscript/ */
+  var loadScript = function(url, callback){
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+
+    // If the browser is Internet Explorer.
+    if (script.readyState){
+      script.onreadystatechange = function(){
+        if (script.readyState == "loaded" || script.readyState == "complete"){
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    // For any other browser.
+    } else {
+      script.onload = function(){
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  };
+
+  if (typeof Shopify.checkout === 'undefined')    { 
+  loadScript('https://www.googleadservices.com/pagead/conversion_async.js', function(){
+    window.google_trackConversion({
+      google_conversion_id: 961028387,
+      google_custom_params: window.roihuntereasy_google_tag_params,
+      google_remarketing_only: true
+    })
+  });
+}
+/* ]]> */
+</script>
