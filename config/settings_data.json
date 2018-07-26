@@ -329,10 +329,10 @@
         "type": "static-product",
         "settings": {
           "layout": "layout--three-col",
-          "enable_related_products": true,
+          "enable_related_products": false,
           "enable_video_autoplay": false,
-          "show_dcb": false,
-          "product_cart_redirect": false
+          "show_dcb": true,
+          "product_cart_redirect": true
         }
       },
       "static-cart": {

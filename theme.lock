@@ -16,7 +16,7 @@ assets/theme.scss.liquid:
 assets/trust-icons.jpg:
   development: 2018-07-13T01:42:53-07:00   23fb165772ff69971fd1e073e2e3420a
 config/settings_data.json:
-  development: 2018-07-16T04:05:51-07:00   5f3514ed18c6effd7d5265c821853915
+  development: 2018-07-26T00:19:33-07:00   96917eb9a75b162f43d5001cf4b7f824
 config/settings_schema.json:
   development: 2018-07-10T01:26:55-07:00   d02a79c79ede4ddf4198e77097f4eae5
 layout/giftcard.liquid:
@@ -24,7 +24,7 @@ layout/giftcard.liquid:
 layout/none.liquid:
   development: 2018-07-05T23:41:18-07:00   30e4a495aac08f1454e076fa93d6c292
 layout/theme.liquid:
-  development: 2018-07-25T02:52:24-07:00   a8f048255598822c573af35cb3947c6d
+  development: 2018-07-26T00:15:57-07:00   aab90e85994c234fb16b097299bbdf31
 locales/en.default.json:
   development: 2018-07-10T01:26:21-07:00   e46f2b4c835e183d06ca97140fc55a64
 sections/dynamic-blog-posts.liquid:
@@ -163,6 +163,8 @@ snippets/klaviyo-product-tag.liquid:
   development: 2018-07-18T03:09:30-07:00   37215412a32875fe923acb4bc5a125c0
 snippets/klaviyo-theme-tag.liquid:
   development: 2018-07-16T20:11:53-07:00   c0d018aad600149b80040cb7a2a4dce5
+snippets/limespot.liquid:
+  development: 2018-07-26T00:15:55-07:00   24fa36a6e3a32353e28369db249659c4
 snippets/live-search-form.liquid:
   development: 2018-07-05T23:41:19-07:00   d803b9dbcb14a674a7e9923a64365beb
 snippets/meganav-image-block.liquid:
