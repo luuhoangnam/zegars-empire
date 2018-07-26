@@ -141,6 +141,10 @@
             {% endif %}
           </div>
 
+          <div class="cart-trust-badges trust-badges">
+              <img src="{{ "security-trust-badge.png" | asset_url }}" alt="Trust Zegars">
+          </div>
+
           <div class="cart-checkout">
             <button
               class="button-primary"
@@ -177,10 +181,6 @@
           </div>
         </div>
       {% endif %}
-
-      <div class="trust-badges">
-        <img src="{{ "security-trust-badge.png" | asset_url }}" alt="Trust Zegars">
-      </div>
     </div>
 
     {% if has_sidebar %}
